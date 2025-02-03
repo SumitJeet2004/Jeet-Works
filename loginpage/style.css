@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+    transition: background 0.5s ease-in-out;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.container {
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Glow Effect */
+.btn-dark, .btn-primary {
+    transition: 0.3s ease-in-out;
+}
+
+.btn-dark:hover, .btn-primary:hover {
+    box-shadow: 0 0 10px #ffcc00;
+}
+
+/* Smooth Form Inputs */
+.form-control {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
+}
